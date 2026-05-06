@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── Primary SEO ── -->
+  <title>Empowering Journeys — A Reading List for Healing from Trauma | Dr. Oliver Inderwildi</title>
+  <meta name="description" content="A curated reading list by Dr. Oliver Inderwildi: five essential books for understanding and healing from trauma and PTSD, from Paul Conti to Bessel van der Kolk." />
+  <meta name="keywords" content="Oliver Inderwildi, trauma, PTSD, reading list, healing, mental health, The Body Keeps the Score, Complex PTSD, Paul Conti, Bessel van der Kolk, Pete Walker, Judith Herman, Mark Wolynn" />
+  <meta name="author" content="Oliver Inderwildi" />
+  <link rel="canonical" href="https://oliverinderwildi.github.io/Library/Reading_Lists/" />
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Empowering Journeys — A Reading List for Healing from Trauma" />
+  <meta property="og:description" content="Five essential books for understanding and healing from trauma and PTSD, curated by Dr. Oliver Inderwildi." />
+  <meta property="og:url" content="https://oliverinderwildi.github.io/Library/Reading_Lists/" />
+  <meta property="og:locale" content="en_GB" />
+
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- ── Google Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- ── Google Analytics ── -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MWNCQB0SMG"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-TMZL17ZBR3');</script>
+
+  <style>
+:root {
+  --ink: #1a1714;
+  --ink-soft: #3d3830;
+  --ink-muted: #6e6458;
+  --ink-faint: #b0a898;
+  --paper: #f9f6f1;
+  --paper-warm: #f3ede3;
+  --rule: #d4c9b8;
+  --accent: #5b8a72;
+  --accent-pale: rgba(91,138,114,0.08);
+  --accent-light: #7dc4a0;
+  --charcoal: #100e0c;
+  --charcoal-mid: #1c1916;
+  --cream: #f0ebe2;
+  --cream-dim: #c8bfb0;
+  --gold: #b8922a;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Source Serif 4', Georgia, serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.7;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-family: 'Playfair Display', Georgia, serif; font-weight: 700; line-height: 1.15; }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+a { color: var(--accent); text-decoration: none; transition: color .2s; }
+a:hover { color: var(--accent-light); }
+
+/* ── Site Nav ── */
+.site-nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+  background: rgba(16,14,12,0.92);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(200,191,176,0.12);
+}
+.nav-inner {
+  max-width: 1200px; margin: 0 auto; padding: 0 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 60px;
+}
+.nav-left, .nav-right { display: flex; align-items: center; gap: 0.25rem; }
+.nav-center { position: absolute; left: 50%; transform: translateX(-50%); }
+.nav-center a {
+  font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 600;
+  color: var(--cream); text-decoration: none; letter-spacing: 0.02em;
+}
+.nav-center a:hover { color: var(--gold); }
+.nav-link {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--cream-dim); text-decoration: none;
+  padding: 0.5rem 0.85rem; border-radius: 6px; transition: all .2s ease;
+}
+.nav-link:hover { color: var(--cream); background: rgba(184,146,42,0.12); }
+.nav-link.active { color: var(--gold); }
+.nav-link.library { color: #5b8a72; border: 1px solid #3d6b52; background: rgba(91,138,114,0.08); }
+.nav-link.library:hover { background: rgba(91,138,114,0.18); color: #7dc4a0; }
+
+/* Dropdown */
+.nav-dropdown { position: relative; }
+.nav-dropdown-trigger { cursor: pointer; display: flex; align-items: center; gap: 0.35rem; }
+.nav-dropdown-trigger::after {
+  content: ''; display: inline-block; width: 0; height: 0;
+  border-left: 4px solid transparent; border-right: 4px solid transparent;
+  border-top: 4px solid currentColor; transition: transform .2s ease;
+}
+.nav-dropdown:hover .nav-dropdown-trigger::after { transform: rotate(180deg); }
+.nav-dropdown-menu {
+  position: absolute; top: calc(100% + 0.5rem); left: 50%; transform: translateX(-50%);
+  background: var(--charcoal-mid); border: 1px solid rgba(200,191,176,0.15);
+  border-radius: 10px; padding: 0.5rem; min-width: 180px;
+  opacity: 0; visibility: hidden; transition: all .2s ease;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+}
+.nav-dropdown:hover .nav-dropdown-menu { opacity: 1; visibility: visible; }
+.nav-dropdown-menu a {
+  display: block; padding: 0.6rem 1rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.72rem; font-weight: 500;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--cream-dim); text-decoration: none; border-radius: 6px; transition: all .2s ease;
+}
+.nav-dropdown-menu a:hover { color: var(--cream); background: rgba(184,146,42,0.12); }
+.dropdown-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.6rem; text-transform: uppercase;
+  letter-spacing: 0.12em; color: rgba(200,191,176,0.35); padding: 0.4rem 1rem 0.2rem;
+}
+
+/* ── Hero ── */
+.article-hero {
+  background: var(--charcoal);
+  padding: 140px 0 4rem;
+  position: relative; overflow: hidden;
+}
+.article-hero::after {
+  content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+  height: 3px; background: linear-gradient(90deg, var(--accent), var(--accent-light));
+}
+.hero-eyebrow {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.72rem;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 1.5rem;
+  display: flex; align-items: center; gap: 0.75rem;
+}
+.hero-eyebrow::after {
+  content: ''; display: inline-block; width: 3rem; height: 1px;
+  background: var(--accent); opacity: 0.6;
+}
+.article-hero h1 {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  color: var(--accent-light); margin-bottom: 1rem;
+}
+.article-hero h1 em { font-style: italic; color: var(--cream); }
+.hero-sub {
+  font-size: 1.15rem; font-weight: 300; color: var(--cream-dim);
+  max-width: 640px; line-height: 1.75; font-style: italic;
+  border-left: 2px solid var(--accent); padding-left: 1.25rem;
+}
+.hero-meta {
+  margin-top: 2rem; display: flex; align-items: center; gap: 1.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.7rem;
+  letter-spacing: 0.08em; color: var(--cream-dim); opacity: 0.6;
+}
+.hero-meta span { display: flex; align-items: center; gap: 0.4rem; }
+
+/* ── Intro ── */
+.intro-section {
+  background: var(--paper-warm);
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.intro-text { max-width: 750px; }
+.intro-text p {
+  font-size: 1.08rem; color: var(--ink-soft); line-height: 1.85; margin-bottom: 1.25rem;
+}
+
+/* ── Book Cards ── */
+.books-section {
+  padding: 4rem 0;
+}
+.section-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; font-weight: 500;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 0.75rem;
+}
+.books-section > .container > h2 {
+  font-size: 1.6rem; color: var(--ink); margin-bottom: 2.5rem;
+  padding-bottom: 1rem; border-bottom: 1px solid var(--rule);
+}
+
+.book-entry {
+  display: grid; grid-template-columns: 1fr;
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.book-entry:last-child { border-bottom: none; }
+.book-number {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--accent); margin-bottom: 0.5rem;
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.book-number::after {
+  content: ''; flex: 1; height: 1px; background: var(--rule); max-width: 4rem;
+}
+.book-entry h3 {
+  font-size: 1.4rem; color: var(--ink); margin-bottom: 0.3rem;
+}
+.book-author {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.78rem;
+  letter-spacing: 0.06em; color: var(--accent); margin-bottom: 1.25rem;
+}
+.book-entry p {
+  font-size: 1.02rem; color: var(--ink-soft); line-height: 1.85; max-width: 800px;
+}
+
+/* ── Closing ── */
+.closing-section {
+  background: var(--paper-warm);
+  padding: 3.5rem 0;
+  border-top: 1px solid var(--rule);
+}
+.closing-section p {
+  font-size: 1.05rem; color: var(--ink-soft); line-height: 1.85;
+  max-width: 750px; margin-bottom: 1rem;
+}
+.closing-section p:last-child { margin-bottom: 0; }
+.closing-section .sign-off {
+  font-style: italic; color: var(--accent); margin-top: 1.5rem;
+  font-family: 'Playfair Display', serif; font-size: 1.1rem;
+}
+
+/* ── Download Bar ── */
+.download-bar {
+  background: var(--charcoal); padding: 2rem 0;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+.download-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 1rem;
+}
+.download-inner p {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.75rem;
+  letter-spacing: 0.08em; color: var(--cream-dim);
+}
+.btn-download {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.72rem;
+  letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+  background: var(--accent); color: #fff; padding: 0.65rem 1.5rem;
+  border: none; cursor: pointer; transition: background .2s;
+}
+.btn-download:hover { background: var(--accent-light); color: #fff; }
+
+/* ── Footer ── */
+.site-footer {
+  background: var(--charcoal); border-top: 1px solid rgba(255,255,255,0.05);
+  padding: 2.5rem 0;
+}
+.footer-inner {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+.footer-copy {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  letter-spacing: 0.1em; color: rgba(200,191,176,0.35);
+}
+.footer-links { display: flex; gap: 1.5rem; list-style: none; }
+.footer-links a {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.65rem;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: rgba(200,191,176,0.35); text-decoration: none; transition: color .2s;
+}
+.footer-links a:hover { color: rgba(200,191,176,0.7); }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .nav-inner { padding: 0 1rem; }
+  .article-hero { padding: 110px 0 3rem; }
+  .container { padding: 0 1.25rem; }
+  .hero-meta { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .download-inner { flex-direction: column; text-align: center; }
+  .footer-inner { flex-direction: column; text-align: center; }
+}
+@media (max-width: 480px) {
+  .nav-left { display: none; }
+  .article-hero h1 { font-size: 1.6rem; }
+}
+  </style>
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav class="site-nav">
+  <div class="nav-inner">
+    <div class="nav-left">
+      <a href="/GoogleScholar/" class="nav-link library active">Library</a>
+    </div>
+    <div class="nav-center">
+      <a href="/">Dr Oliver Inderwildi</a>
+    </div>
+    <div class="nav-right">
+      <a href="/#series" class="nav-link">Articles</a>
+      <div class="nav-dropdown">
+        <a class="nav-link nav-dropdown-trigger">In the Media</a>
+        <div class="nav-dropdown-menu">
+          <div class="dropdown-label">Media &amp; Appearances</div>
+          <a href="/Media/Interviews/">Interviews</a>
+          <a href="https://www.youtube.com/@oliverinderwildi" target="_blank" rel="noopener">Videos</a>
+          <a href="/Media/Lectures/FestivalCircularEconomy/">Lectures</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<header class="article-hero">
+  <div class="container">
+    <p class="hero-eyebrow">Library · Reading List</p>
+    <h1>Empowering Journeys: <em>A Definitive Collection of Books for Healing from Trauma</em></h1>
+    <p class="hero-sub">
+      Overcoming PTSD can be the challenge of a lifetime. Within adversity lies opportunity — the goal is to come out the other end more resilient, more empathic, and more balanced.
+    </p>
+    <div class="hero-meta">
+      <span>Dr. Oliver Inderwildi</span>
+      <span>December 20, 2023</span>
+      <span>7 min read</span>
+    </div>
+  </div>
+</header>
+
+<!-- ── Introduction ── -->
+<section class="intro-section">
+  <div class="container">
+    <div class="intro-text">
+      <p>
+        Overcoming post-traumatic stress disorder (PTSD), especially severe cases, can be the challenge of a lifetime. No matter whether accidents, disease, war experience, or abuse have induced the debilitating disease, its effects — both physiologically and psychologically — are not only long-lasting but also challenging to address. In the case of PTSD, standard treatments with commonly effective antidepressants such as SSRIs are often in vain, while trauma therapy is a lengthy process. Short-term relief is hence not easily achieved, but novel routes such as treatment with psychedelics or stellate ganglion blocks can provide some relief. So, if you are suffering from PTSD, you're in for a marathon, an ultra-marathon really.
+      </p>
+      <p>
+        Yet, within adversity lies opportunity: the goal is to come out the other end more resilient, more empathic, and more balanced. To accompany the journey towards a restored self, reading about the ailment and its symptoms is, in my opinion, essential. The following books gave me not only a better understanding of the disease but also pointed out things that I could incorporate into my daily routine to ease the effects, essentially guiding me through my exciting but challenging journey.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Book Recommendations ── -->
+<section class="books-section">
+  <div class="container">
+    <p class="section-label">The Collection</p>
+    <h2>Five Books for the Journey</h2>
+
+    <!-- Book 1 -->
+    <div class="book-entry">
+      <p class="book-number">Book One</p>
+      <h3>Trauma — The Invisible Epidemic</h3>
+      <p class="book-author">Paul Conti</p>
+      <p>
+        The American psychiatrist's book provides a concise yet holistic overview of trauma and its effects on well-being, making it the perfect starting point for your complementary reading. The key takeaway is that — as the subtitle implies — trauma is indeed an invisible epidemic. Many people have learned to cope with the impacts of minor trauma without knowing the origins of their issues. Traumatised people have a higher baseline anxiety while their baseline well-being is reduced. Moreover, Conti's book dives deep into shame and elaborates on why traumatised people feel ashamed for what happened to them. The first step of your journey is to accept that trauma is nothing you should feel ashamed of — in the end, it was inflicted on you.
+      </p>
+    </div>
+
+    <!-- Book 2 -->
+    <div class="book-entry">
+      <p class="book-number">Book Two</p>
+      <h3>The Body Keeps the Score</h3>
+      <p class="book-author">Bessel van der Kolk</p>
+      <p>
+        The Dutch psychiatry professor's book was my starting point; the beauty of this book is its comprehensiveness — from the formation of trauma to recovery from it. It starts by explaining how trauma is imprinted on the brain and how the brain's network and chemistry are affected. It presents a compelling exploration of innovative therapeutic approaches that address the intricate interplay between trauma, memory, and recovery — from IFS therapy to EMDR, neuro- and bio-feedback, yoga, theatre, and interventions with psychedelics. Once you have read and internalised van der Kolk's book, you are set for the journey; just pick the levers that suit you most and get going.
+      </p>
+    </div>
+
+    <!-- Book 3 -->
+    <div class="book-entry">
+      <p class="book-number">Book Three</p>
+      <h3>Complex PTSD: From Surviving to Thriving</h3>
+      <p class="book-author">Pete Walker</p>
+      <p>
+        This book covers a narrower area of PTSD, namely complex cases (cPTSD). While PTSD usually results from a single traumatic event, cPTSD arises from prolonged, repeated trauma, often occurring in childhood, such as chronic abuse, neglect, bullying, or exposure to ongoing interpersonal violence. cPTSD tops up standard PTSD symptoms with issues about emotional regulation, self-esteem, a sense of disconnection and emptiness, and many more. Pete Walker not only describes the intricacies of cPTSD but also provides tools for recovery — from grounding techniques and self-compassion to mindfulness, establishing clear boundaries, inner child work, and cognitive-behavioural techniques. If you are suffering from cPTSD, this book is an excellent resource.
+      </p>
+    </div>
+
+    <!-- Book 4 -->
+    <div class="book-entry">
+      <p class="book-number">Book Four</p>
+      <h3>Trauma &amp; Recovery</h3>
+      <p class="book-author">Judith Lewis Herman</p>
+      <p>
+        The Harvard professor's book explores the psychological impact of trauma and the process of healing, often from a feminist point of view. Herman examines how traumatic experiences disrupt one's sense of self and relationships, leading to a disconnection from normal life. The book outlines a therapeutic framework, highlighting the significance of remembering and mourning as crucial steps in the healing process. She explores power dynamics and emphasises the need for empathy, validation, and social change in fostering true recovery. Even though the book has a focus on violence towards women and girls, it is an important read for men — especially since it delivers insights into issues the other gender faces that are often not clear to men.
+      </p>
+    </div>
+
+    <!-- Book 5 -->
+    <div class="book-entry">
+      <p class="book-number">Book Five</p>
+      <h3>It Didn't Start With You</h3>
+      <p class="book-author">Mark Wolynn</p>
+      <p>
+        Wolynn's book explores the profound impact of inherited family trauma on our relationships, health, and overall life. He introduces the concept of epigenetics, suggesting that the experiences and traumas of our ancestors can be imprinted on our genes and passed down through generations. The book delves into real-life case studies illustrating how individuals may carry the emotional and psychological burdens of their family's past without even being consciously aware of it. As the other books mentioned, Wolynn argues that becoming aware of the trauma enables us to break the cycle and release these deep-seated issues, offering a roadmap to break free from the invisible chains that hold traumatised people back.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Closing ── -->
+<section class="closing-section">
+  <div class="container">
+    <p>
+      The books recommended above should really help you with working through trauma and complement medical as well as therapeutic interventions. Not only the increased comprehension of the disease that I acquired from these books helped me a lot, but also the little interventions recommended supported me in managing the symptoms.
+    </p>
+    <p>
+      In essence, the path to overcoming PTSD unfolds as a profound journey, demanding a blend of medical, therapeutic, and self-help interventions. Despite the inherent challenges, it is crucial to underscore the potential for resilience to sprout from adversity. Within the struggle lies a transformative opportunity, and the suggested resources stand as guiding beacons, steering individuals toward health, well-being, and a revitalised enthusiasm for life.
+    </p>
+    <p class="sign-off">Wishing you the best of luck on your journey.</p>
+  </div>
+</section>
+
+<!-- ── Download ── -->
+<section class="download-bar">
+  <div class="container">
+    <div class="download-inner">
+      <p>This reading list is also available on <a href="https://medium.com/@oliverinderwildi" target="_blank" rel="noopener" style="color:var(--accent);">Medium</a></p>
+      <a href="Empowering_Journeys_Trauma_Reading_List.pdf" download class="btn-download">&#11123; Download PDF</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2025 Dr Oliver Inderwildi</p>
+      <ul class="footer-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="https://medium.com/@oliverinderwildi" target="_blank" rel="noopener">Medium</a></li>
+        <li><a href="https://www.linkedin.com/in/oliverinderwildi/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
